@@ -1,0 +1,27 @@
+# Virtual environment (do not commit dependencies)
+venv/
+ENV/
+env/
+.venv/
+
+# Project Data (ignore the raw Kaggle CSV and any generated splits/models)
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+models/
+data/
+
+# Python caching artifacts
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables / credentials (if you add them later)
+.env
